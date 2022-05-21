@@ -1,0 +1,36 @@
+.favoritos {
+    text-align: center;
+}
+.favoritos ul > .lista-fav {
+    margin: auto;
+}
+
+.favoritos li {
+    list-style: none;
+
+}
+.favoritos .lista-fav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+    gap: 20px;
+    font-size: 25px;
+    width: 400px;
+    height: 150px;
+}
+
+
+
+.favoritos img {
+    width: 80px;
+
+}
+
+.lista-fav button {
+    padding: 5px;
+    background-color: #212529;
+    border-radius: 5px;
+    color: azure;
+    
+}

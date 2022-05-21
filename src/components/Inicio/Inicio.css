@@ -1,0 +1,98 @@
+
+.box-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.box.container button {
+    padding: 3px 5px;
+    background-color: #212529;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 200;
+    cursor: pointer;
+}
+.box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.box button {
+    padding: 3px 5px;
+    background-color: #212529;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.box-image {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-image img {
+    height: 350px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    transition: ease-in-out 2s all;
+    
+}
+
+.box-image::after{
+    content: 'PLAY';
+    font-weight: bold;
+    font-size: 30px;
+    width: 110px;
+    height: 45px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(240, 255, 255, 0.301);
+    cursor: pointer;
+    
+}
+    
+
+.box-image img:hover {
+    
+    transform: scale(1.1);
+    
+}
+.mostrador {
+    
+    width: 100%;
+    height: max-content;
+    background-image: linear-gradient(10deg, #4950573b, #0f1214ad);
+    
+}
+
+.mostrador-pelis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+.mostrador-pelis img {
+  border-radius: 10px;
+  box-shadow: -1px 4px 10px azure;
+  transition: 2s ease-out;
+  transform:skewX(10deg);
+}
+
+.mostrador-pelis img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px azure;
+
+}
